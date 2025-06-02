@@ -28,6 +28,10 @@ Constraints:
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+Time complexity = O(n)
+Space complexity = O(n)
+*/
 class Solution {
 public:
     int largestRectangleArea(vector<int>& heights) {
