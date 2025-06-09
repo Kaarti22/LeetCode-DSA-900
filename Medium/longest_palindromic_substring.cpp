@@ -27,7 +27,7 @@ using namespace std;
 
 /*
 Time complexity = O(n^2)
-Space complexity = O(n)
+Space complexity = O(1)
 */
 class Solution {
 public:

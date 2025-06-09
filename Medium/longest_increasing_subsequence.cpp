@@ -32,6 +32,10 @@ Follow up: Can you come up with an algorithm that runs in O(n log(n)) time compl
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+Time complexity = O(n^2)
+Space complexity = O(n)
+*/
 class Solution {
 public:
     int lengthOfLIS(vector<int>& nums) {

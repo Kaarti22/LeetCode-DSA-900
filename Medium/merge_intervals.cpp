@@ -29,7 +29,7 @@ using namespace std;
 
 /*
 Time complexity = O(nlogn)
-Space complexity = O(n)
+Space complexity = O(1)
 */
 class Solution {
 public:
