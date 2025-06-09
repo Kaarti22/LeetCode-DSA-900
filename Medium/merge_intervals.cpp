@@ -27,6 +27,10 @@ intervals[i].length == 2
 #include <bits/stdc++.h>
 using namespace std;
 
+/*
+Time complexity = O(nlogn)
+Space complexity = O(n)
+*/
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
