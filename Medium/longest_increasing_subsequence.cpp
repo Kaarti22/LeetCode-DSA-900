@@ -52,3 +52,23 @@ public:
         return *max_element(dp.begin(), dp.end());
     }
 };
+
+/*
+Time complexity = O(nlogn)
+Space complexity = O(n)
+*/
+class Solution {
+public:
+    int lengthOfLIS(vector<int>& nums) {
+        vector<int> v;
+        for(auto& it: nums){
+            auto lb = lower_bound(v.begin(), v.end(), it);
+            if(lb == v.end()){
+                v.push_back(it);
+            } else {
+                *lb = it;
+            }
+        }
+        return v.size();
+    }
+};
