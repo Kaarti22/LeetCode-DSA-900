@@ -46,7 +46,7 @@ using namespace std;
 
 /*
 Time complexity = O(1) per call
-Space complexity = O(n) overall
+Space complexity = O(capacity)
 */
 class LRUCache {
 private:
